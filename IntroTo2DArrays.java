@@ -66,6 +66,7 @@ public class IntroTo2DArrays{
 
       System.out.println("\n\n\nHomework assignment");
       //Add up the columns of each row using for each loops
+      int rowNum =0;
       for(int[] row: ray)
       {
         sum =0;
@@ -74,7 +75,8 @@ public class IntroTo2DArrays{
           sum+= col;
           
         }
-        System.out.println("The sum of row " + row + " is: " + sum);
+        System.out.println("The sum of row " + rowNum + " is: " + sum);
+        rowNum++;
       }
   }
 }
